@@ -36,7 +36,7 @@
 
 */
 
-#define NUM_EXTRUDER 3
+#define NUM_EXTRUDER 1
 #define MOTHERBOARD 33
 #include "pins.h"
 
@@ -726,114 +726,6 @@ Values must be in range 1..255
                 "enable": "ORIG_E0_ENABLE_PIN"
             },
             "preheat": 190
-        },
-        {
-            "id": 1,
-            "heatManager": 3,
-            "pidDriveMin": 40,
-            "pidDriveMax": 230,
-            "pidMax": 255,
-            "sensorType": 1,
-            "sensorPin": "TEMP_2_PIN",
-            "heaterPin": "HEATER_2_PIN",
-            "maxFeedrate": 50,
-            "startFeedrate": 20,
-            "invert": "0",
-            "invertEnable": "0",
-            "acceleration": 5000,
-            "watchPeriod": 1,
-            "pidP": 7,
-            "pidI": 2,
-            "pidD": 40,
-            "advanceK": 0,
-            "advanceL": 0,
-            "waitRetractTemp": 150,
-            "waitRetractUnits": 0,
-            "waitRetract": 0,
-            "stepsPerMM": 370,
-            "coolerPin": -1,
-            "coolerSpeed": 255,
-            "selectCommands": "",
-            "deselectCommands": "",
-            "xOffset": 0,
-            "yOffset": 0,
-            "zOffset": 0,
-            "xOffsetSteps": 0,
-            "yOffsetSteps": 0,
-            "zOffsetSteps": 0,
-            "stepper": {
-                "name": "Extruder 1",
-                "step": "ORIG_E1_STEP_PIN",
-                "dir": "ORIG_E1_DIR_PIN",
-                "enable": "ORIG_E1_ENABLE_PIN"
-            },
-            "advanceBacklashSteps": 0,
-            "decoupleTestPeriod": 12,
-            "jamPin": -1,
-            "jamPullup": "0",
-            "mirror": "0",
-            "invert2": "0",
-            "stepper2": {
-                "name": "Extruder 1",
-                "step": "ORIG_E1_STEP_PIN",
-                "dir": "ORIG_E1_DIR_PIN",
-                "enable": "ORIG_E1_ENABLE_PIN"
-            },
-            "preheat": 190
-        },
-        {
-            "id": 2,
-            "heatManager": 3,
-            "pidDriveMin": 40,
-            "pidDriveMax": 230,
-            "pidMax": 255,
-            "sensorType": 1,
-            "sensorPin": "TEMP_3_PIN",
-            "heaterPin": "HEATER_3_PIN",
-            "maxFeedrate": 50,
-            "startFeedrate": 20,
-            "invert": "0",
-            "invertEnable": "0",
-            "acceleration": 5000,
-            "watchPeriod": 1,
-            "pidP": 7,
-            "pidI": 2,
-            "pidD": 40,
-            "advanceK": 0,
-            "advanceL": 0,
-            "waitRetractTemp": 150,
-            "waitRetractUnits": 0,
-            "waitRetract": 0,
-            "stepsPerMM": 370,
-            "coolerPin": -1,
-            "coolerSpeed": 255,
-            "selectCommands": "",
-            "deselectCommands": "",
-            "xOffset": 0,
-            "yOffset": 0,
-            "zOffset": 0,
-            "xOffsetSteps": 0,
-            "yOffsetSteps": 0,
-            "zOffsetSteps": 0,
-            "stepper": {
-                "name": "Extruder 2",
-                "step": "ORIG_E2_STEP_PIN",
-                "dir": "ORIG_E2_DIR_PIN",
-                "enable": "ORIG_E2_ENABLE_PIN"
-            },
-            "advanceBacklashSteps": 0,
-            "decoupleTestPeriod": 12,
-            "jamPin": -1,
-            "jamPullup": "0",
-            "mirror": "0",
-            "invert2": "0",
-            "stepper2": {
-                "name": "Extruder 2",
-                "step": "ORIG_E2_STEP_PIN",
-                "dir": "ORIG_E2_DIR_PIN",
-                "enable": "ORIG_E2_ENABLE_PIN"
-            },
-            "preheat": 190
         }
     ],
     "uiLanguage": 0,
@@ -1424,7 +1316,7 @@ Values must be in range 1..255
     "hasUser0": false,
     "hasUser1": false,
     "hasUser2": false,
-    "numExtruder": 3,
+    "numExtruder": 1,
     "version": 100.2,
     "primaryPortName": ""
 }
