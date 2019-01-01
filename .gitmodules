@@ -1,5 +1,6 @@
-[submodule "Firmware/Marlin"]
-	path = Firmware/Marlin
+[submodule "Marlin"]
+	path = Marlin
 	url = git@github.com:c0un7-z3r0/Marlin.git
-	branch = printers/MK2-X2
-
+[submodule "MK2-X2/sbambach-MK2-X2"]
+	path = MK2-X2/sbambach-MK2-X2
+	url = git@github.com:sbambach/MK2-X2.git
