@@ -1,6 +1,6 @@
-[submodule "Marlin"]
-	path = Marlin
-	url = git@github.com:c0un7-z3r0/Marlin.git
 [submodule "MK2-X2/sbambach-MK2-X2"]
 	path = MK2-X2/sbambach-MK2-X2
 	url = git@github.com:sbambach/MK2-X2.git
+[submodule "MK2-X2/firmware/Marlin"]
+	path = MK2-X2/firmware/Marlin
+	url = git@github.com:MarlinFirmware/Marlin.git
